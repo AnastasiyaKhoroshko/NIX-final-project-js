@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/randome.css">
+    <title>Randome number</title>
+</head>
+
+<body>
+    <div class="generator">
+        <h1>Random Number Generator</h1>
+        <form name="generateNumber" id="generateNumber">
+            <label for="min">Мінімільне значення: </label>
+            <input type="number" id="min" name="min" required>
+            <label for="max">Максимальне значення: </label>
+            <input type="number" id="max" name="max" required>
+            <label for="numSize">Кількість цифр</label>
+            <input type="number" name="numSize" id="numSize" required>
+            <div class="checkBox">
+                <label for="unique">Тільки унікальні значення</label>
+                <input type="checkbox" name="unique" id="unique">
+            </div>
+            <button id="btn" type="submit">Згенерувати</button>
+        </form>
+        <h2>Результат: <span id="result">0</span></h2>
+    </div>
+    <script src="./js/randome.js"></script>
+</body>
+
+</html>

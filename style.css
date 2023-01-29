@@ -1,0 +1,34 @@
+body {
+    background: #d8d0c3;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #e6e7e9;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.mainPage button {
+    width: 350px;
+    height: 150px;
+    background-color: #25391a;
+    color: #FFFFFF;
+    font-size: 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.mainPage button:hover {
+    background-color: #385627;
+}

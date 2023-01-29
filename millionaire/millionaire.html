@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/millionaire.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="game__title">Хто хоче стати мільйонером?</h1>
+        <div class="game__money">
+            <p class="game__money_text"></p>
+        </div>
+        <div class="game__help">
+            <div class="game__help_row">
+                <button class="game__fifyFifty btn">50/50</button>
+                <button class="game__callFriend btn">Дзвінок</button>
+            </div>
+        </div>
+        <div class="game__area">
+            <div class="game__question"></div>
+            <div class="game__answers">
+                <button class="game__answer_one" id="1"></button>
+                <button class="game__answer_one" id="2"></button>
+                <button class="game__answer_one" id="3"></button>
+                <button class="game__answer_one" id="4"></button>
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+        <p class="popup__text"></p>
+        <p class="popup__prize"></p>
+        <button class="popup__button btn">OK</button>
+    </div>
+    <div id="overlay"></div>
+    <script src="./js/millionaire.js"></script>
+</body>
+
+</html>
